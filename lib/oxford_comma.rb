@@ -15,6 +15,7 @@
 
 # BUT THIS NOT.  THE ARRAY LEGNTH IS 1 BUT IF LINE HAS NO EFFECT.
 def oxford_comma(array)
+  puts array.length
   if array.length == 1
 
      array.join
@@ -23,5 +24,5 @@ def oxford_comma(array)
 
      array.join(" and ")
   end
-  return array
+
 end
